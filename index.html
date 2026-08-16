@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Down South | Mirissa Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Outfit', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(15, 23, 42, 0.55), rgba(30, 64, 175, 0.55)), 
+                        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .glass-card { 
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-blue-950 to-teal-950 min-h-screen text-slate-100">
+
+    <!-- Hero Section -->
+    <header class="hero-bg text-white py-24 px-6 text-center relative overflow-hidden shadow-2xl">
+        <div class="max-w-4xl mx-auto">
+            <span class="bg-teal-500/30 text-teal-300 border border-teal-400/30 text-xs px-4 py-1.5 rounded-full font-semibold uppercase tracking-widest inline-block mb-4 backdrop-blur-md">🌴 Southern Province, Sri Lanka</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight drop-shadow-md">Discover Down South</h1>
+            <p class="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto font-light drop-shadow">Your journey begins at Mirissa Beach. Explore all major tourist attractions across the coast!</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 -mt-16 pb-20 relative z-10">
+        
+        <!-- Interactive Notice -->
+        <div class="glass-card text-slate-800 rounded-3xl p-6 mb-12 shadow-2xl border-l-8 border-teal-500 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-4">
+                <div class="p-3 bg-teal-500 text-white rounded-2xl text-2xl shadow-lg">📍</div>
+                <p class="font-medium text-base">Currently scanning from <strong class="text-teal-700">Mirissa Beach</strong>. Tap 'Get Directions' to open Google Maps instantly!</p>
+            </div>
+            <span class="bg-slate-900 text-teal-300 text-xs uppercase tracking-widest px-4 py-2 rounded-xl font-bold shadow">Live QR Guide</span>
+        </div>
+
+        <!-- Destination Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- 1. Coconut Tree Hill -->
+            <div class="bg-white text-slate-800 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group flex flex-col justify-between border border-white/20 hover:-translate-y-1">
+                <div>
+                    <div class="relative h-48 overflow-hidden bg-slate-200">
+                        <img src="upload/coconut-tree-hill.jpg" alt="Coconut Tree Hill" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Mirissa</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-extrabold text-slate-900 group-hover:text-teal-600 transition">Coconut Tree Hill</h3>
+                            <span class="text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-lg">1.5 km</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">Iconic, Instagram-famous viewpoint lined with towering coconut palms overlooking the ocean.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Coconut+Tree+Hill+Mirissa" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 bg-teal-600 text-white rounded-2xl font-bold hover:bg-teal-700 transition shadow-lg shadow-teal-600/30">Get Directions 🗺️</a>
+                </div>
+            </div>
+
+            <!-- 2. Parrot Rock Bridge -->
+            <div class="bg-white text-slate-800 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group flex flex-col justify-between border border-white/20 hover:-translate-y-1">
+                <div>
+                    <div class="relative h-48 overflow-hidden bg-slate-200">
+                        <img src="upload/Parrot-Rock-Bridge.jpg" alt="Parrot Rock Bridge" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Mirissa</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-extrabold text-slate-900 group-hover:text-teal-600 transition">Parrot Rock Bridge</h3>
+                            <span class="text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-lg">0.5 km</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">A unique rock island just off Mirissa beach offering 360-degree panoramic ocean views.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Parrot+Rock+Bridge+Mirissa" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 bg-teal-600 text-white rounded-2xl font-bold hover:bg-teal-700 transition shadow-lg shadow-teal-600/30">Get Directions 🗺️</a>
+                </div>
+            </div>
+
+            <!-- 3. Secret Beach -->
+            <div class="bg-white text-slate-800 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group flex flex-col justify-between border border-white/20 hover:-translate-y-1">
+                <div>
+                    <div class="relative h-48 overflow-hidden bg-slate-200">
+                        <img src="upload/mirissa-secret-beach.jpg" alt="Secret Beach" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Mirissa</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-extrabold text-slate-900 group-hover:text-teal-600 transition">Secret Beach</h3>
+                            <span class="text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-lg">2 km</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">A hidden, peaceful cove surrounded by lush greenery, ideal for relaxing and snorkeling.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Secret+Beach+Mirissa" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 bg-teal-600 text-white rounded-2xl font-bold hover:bg-teal-700 transition shadow-lg shadow-teal-600/30">Get Directions 🗺️</a>
+                </div>
+            </div>
+
+            <!-- 4. Weligama Beach & Surfing -->
+            <div class="bg-white text-slate-800 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group flex flex-col justify-between border border-white/20 hover:-translate-y-1">
+                <div>
+                    <div class="relative h-48 overflow-hidden bg-slate-200">
+                        <img src="upload/weligama_beach.png" alt="Weligama Beach" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Weligama</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-extrabold text-slate-900 group-hover:text-teal-600 transition">Weligama Beach & Surfing</h3>
+                            <span class="text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-lg">6 km</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">World-renowned hub for beginner surfing lessons and traditional stilt fishermen.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Weligama+Beach" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 bg-teal-600 text-white rounded-2xl font-bold hover:bg-teal-700 transition shadow-lg shadow-teal-600/30">Get Directions 🗺️</a>
+                </div>
+            </div>
+
+            <!-- 5. Matara Fort & Star Fort -->
+            <div class="bg-white text-slate-800 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group flex flex-col justify-between border border-white/20 hover:-translate-y-1">
+                <div>
+                    <div class="relative h-48 overflow-hidden bg-slate-200">
+                        <img src="upload/matara-star.jpg" alt="Matara Fort" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Matara</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-extrabold text-slate-900 group-hover:text-teal-600 transition">Matara Fort & Star Fort</h3>
+                            <span class="text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-lg">10 km</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">Historic Dutch colonial architecture, ancient ramparts, and picturesque riverside views.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Matara+Fort" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 bg-teal-600 text-white rounded-2xl font-bold hover:bg-teal-700 transition shadow-lg shadow-teal-600/30">Get Directions 🗺️</a>
+                </div>
+            </div>
+
+            <!-- 6. Hiriketiya Beach -->
+            <div class="bg-white text-slate-800 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group flex flex-col justify-between border border-white/20 hover:-translate-y-1">
+                <div>
+                    <div class="relative h-48 overflow-hidden bg-slate-200">
+                        <img src="upload/Hiriketiya-Beach.jpg" alt="Hiriketiya Beach" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Dikwella</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-extrabold text-slate-900 group-hover:text-teal-600 transition">Hiriketiya Beach</h3>
+                            <span class="text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-lg">25 km</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">A stunning horseshoe-shaped tropical bay famous for surfing waves and vibrant cafes.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Hiriketiya+Beach" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 bg-teal-600 text-white rounded-2xl font-bold hover:bg-teal-700 transition shadow-lg shadow-teal-600/30">Get Directions 🗺️</a>
+                </div>
+            </div>
+
+            <!-- 7. Hummanaya Blowhole -->
+            <div class="bg-white text-slate-800 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group flex flex-col justify-between border border-white/20 hover:-translate-y-1">
+                <div>
+                    <div class="relative h-48 overflow-hidden bg-slate-200">
+                        <img src="upload/hummanaya.jpg" alt="Hummanaya Blowhole" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Kudawella</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-extrabold text-slate-900 group-hover:text-teal-600 transition">Hummanaya Blowhole</h3>
+                            <span class="text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-lg">30 km</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">The second largest blowhole in the world, shooting ocean water high up into the air.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Hummanaya+Blowhole+Kudawella" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 bg-teal-600 text-white rounded-2xl font-bold hover:bg-teal-700 transition shadow-lg shadow-teal-600/30">Get Directions 🗺️</a>
+                </div>
+            </div>
+
+            <!-- 8. Unawatuna & Peace Pagoda -->
+            <div class="bg-white text-slate-800 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group flex flex-col justify-between border border-white/20 hover:-translate-y-1">
+                <div>
+                    <div class="relative h-48 overflow-hidden bg-slate-200">
+                        <img src="upload/Unawatuna.jpg" alt="Unawatuna" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Unawatuna</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-extrabold text-slate-900 group-hover:text-teal-600 transition">Unawatuna & Peace Pagoda</h3>
+                            <span class="text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-lg">30 km</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">Calm turquoise swimming waters and the peaceful hilltop Japanese Peace Pagoda.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Unawatuna+Beach" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 bg-teal-600 text-white rounded-2xl font-bold hover:bg-teal-700 transition shadow-lg shadow-teal-600/30">Get Directions 🗺️</a>
+                </div>
+            </div>
+
+            <!-- 9. Galle Dutch Fort -->
+            <div class="bg-white text-slate-800 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group flex flex-col justify-between border border-white/20 hover:-translate-y-1">
+                <div>
+                    <div class="relative h-48 overflow-hidden bg-slate-200">
+                        <img src="upload/Galle-fort.jpg" alt="Galle Dutch Fort" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Galle</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-extrabold text-slate-900 group-hover:text-teal-600 transition">Galle Dutch Fort</h3>
+                            <span class="text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-1 rounded-lg">35 km</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">A UNESCO World Heritage site with historic ramparts, boutique cafes, and gorgeous sunset views.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Galle+Dutch+Fort" target="_blank" class="flex items-center justify-center gap-2 w-full py-3 bg-teal-600 text-white rounded-2xl font-bold hover:bg-teal-700 transition shadow-lg shadow-teal-600/30">Get Directions 🗺️</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-12 text-slate-400 text-sm border-t border-slate-800/80 bg-slate-950">
+        <p>© 2026 Explore Southern Province Sri Lanka. Crafted beautifully for Mirissa Beach visitors 🌴✨</p>
+    </footer>
+
+</body>
+</html>
